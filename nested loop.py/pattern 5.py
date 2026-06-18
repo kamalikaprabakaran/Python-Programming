@@ -1,5 +1,4 @@
 def staircase(n):
-    # Write your code here
     for row in range(1,n+1):
         for space in range(n-row):
             print(" ",end='')
